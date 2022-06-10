@@ -1,0 +1,37 @@
+baseURL: https://anes.io/
+languageCode: en-us
+title: Anes Hasicic 
+paginate: 10
+theme: "PaperMod"
+
+enableRobotsTXT: true
+googleAnalytics: G-6ZMV8R5VLT
+
+params:
+  title: Anes Hasicic 
+  description: ""
+  keywords: []
+  ShowShareButtons: true
+  ShowToc: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowRssButtonInSectionTermList: true
+
+  homeInfoParams:
+    Title: Hello there 
+    Content: >
+      My name is Anes and I wellcome you to my blog page where I let out some steam from time to time by writting about topics that I care about, mostly about, but not limited to **Software Engineering**, **Event Sourcing**, **Domain Driven Design**, **Agility**, **Pragmatism**...
+ 
+  socialIcons:
+    - name: linkedin 
+      url: "https://www.linkedin.com/in/anes-hasicic-15692957/"
+    - name: twitter 
+      url: "https://twitter.com/_targz_"
+    - name: medium 
+      url: "https://aneshas.medium.com/"
+    - name: github
+      url: "https://github.com/aneshas"
+
+#  assets:
+  
