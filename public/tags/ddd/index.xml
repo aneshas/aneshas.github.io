@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ddd on Anes Hasicic</title>
+    <link>https://anes.io/tags/ddd/</link>
+    <description>Recent content in ddd on Anes Hasicic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://anes.io/tags/ddd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Decade of DDD, CQRS and Event Sourcing</title>
+      <link>https://anes.io/posts/a-decade-of-ddd-cqrs-and-event-sourcing/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://anes.io/posts/a-decade-of-ddd-cqrs-and-event-sourcing/</guid>
+      <description>For those that haven’t really moved past the blue book…
+DDD for many, including me, brought back the enjoyment of software development. Implementation becomes easy when you break down the domain. The bits and pieces suddenly start to “fit” together in a way they did not before, and the implementation itself becomes straight-forward which results in a simple, maintainable and easy to understand code that will outlive the development team itself.</description>
+    </item>
+    
+  </channel>
+</rss>
