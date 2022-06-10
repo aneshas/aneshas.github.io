@@ -8,6 +8,7 @@ enableRobotsTXT: true
 googleAnalytics: G-6ZMV8R5VLT
 
 params:
+  env: production
   title: Anes Hasicic 
   description: ""
   keywords: []
