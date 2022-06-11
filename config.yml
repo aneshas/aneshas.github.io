@@ -1,7 +1,7 @@
 baseURL: https://anes.io/
 languageCode: en-us
 title: Anes Hasicic 
-paginate: 10
+paginate: 20
 theme: "PaperMod"
 
 enableRobotsTXT: true
