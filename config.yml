@@ -11,7 +11,7 @@ params:
   comments: true
   env: production
   title: Anes Hasicic 
-  description: "My name is Anes and I wellcome you to my blog page where I let out some steam from time to time by writting about topics that I care about, mostly about, but not limited to **Software Engineering**, **Event Sourcing**, **Domain Driven Design**, **Agility**, **Pragmatism**..."
+  description: "My name is Anes and I welcome you to my blog page where I let out some steam from time to time by writting about topics that I care about, mostly about, but not limited to **Software Engineering**, **Event Sourcing**, **Domain Driven Design**, **Agility**, **Pragmatism**..."
   keywords: []
   ShowShareButtons: true
   ShowToc: true
@@ -23,7 +23,7 @@ params:
   homeInfoParams:
     Title: Hello there 
     Content: >
-      My name is Anes and I wellcome you to my blog page where I let out some steam from time to time by writting about topics that I care about, mostly about, but not limited to **Software Engineering**, **Event Sourcing**, **Domain Driven Design**, **Agility**, **Pragmatism**...
+      My name is Anes and I welcome you to my blog page where I let out some steam from time to time by writting about topics that I care about, mostly about, but not limited to **Software Engineering**, **Event Sourcing**, **Domain Driven Design**, **Agility**, **Pragmatism**...
  
   socialIcons:
     - name: linkedin 
