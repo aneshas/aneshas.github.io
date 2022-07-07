@@ -3,17 +3,15 @@
 ## Gathering requirements / exploring the domain
 Go through the rules and use event storming to figure out what's going on
 
-DeckShuffled
-HandsDealt
-DiscardPileStarted
-WildFourReturnedToDeck
-DeckShuffled
-DiscardPileStarted
+HandsDealt/GameStarted
+- contains players
+- their cards
+- discard pile
+- draw pile
 
-// Discard pile depleeted
-DiscardPileShuffled
-DiscardPileStarted
+DiscardPileRestarted
 
+// TODO - Maybe just CardPlayed instead individual card types?
 NumberCardPlayed
 PlayerDrewACard
 ReverseCardPlayed
