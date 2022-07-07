@@ -1,11 +1,12 @@
 ---
-title: A Decade of DDD, CQRS and Event Sourcing 
+title: A Decade of DDD, CQRS and Event Sourcing
 date: 2019-02-22
-slug: a-decade-of-ddd-cqrs-and-event-sourcing 
+slug: a-decade-of-ddd-cqrs-and-event-sourcing
 tags: ["event sourcing", "ddd", "cqrs", "event modeling", "event storming"]
 cover:
-    image: "posts/ddd.png"
+  image: "posts/ddd.png"
 ---
+
 > For those that haven’t really moved past the blue book…
 
 DDD for many, including me, brought back the enjoyment of software development. Implementation becomes easy when you break down the domain. The bits and pieces suddenly start to “fit” together in a way they did not before, and the implementation itself becomes straight-forward which results in a simple, maintainable and easy to understand code that will outlive the development team itself.
@@ -13,6 +14,7 @@ DDD for many, including me, brought back the enjoyment of software development. 
 DDD has come a long way since “the blue book”, but in my experience, not enough people realize that DDD is a growing, evolving thing and that it has indeed learned a few new tricks along the way. This blog is a brief recap of some of the notable things that happened in the DDD community during the last decade or so.
 
 ## Can I DDD?
+
 First things first. What do you need exactly to successfully implement DDD? What are the prerequisites without which it wouldn’t be feasible?
 
 According to Eric Evans, there are two main ones:
@@ -41,6 +43,7 @@ Sorry, but, the answer is no. DDD Lite can only get you so far due to its nature
 What use are all of the abstractions and modeling tools, if you don’t have a good idea of what you are building, or even worse… If you are building the wrong thing?
 
 ## Explicit context boundaries and the Core Domain
+
 Focusing on the **Core Domain**, as Eric puts it, is a game changer.
 
 Focus your DDD efforts on your Core Domain. The stuff that really makes your company stand out from the competition. The thing that gives you an edge and a competitive advantage on the market.
@@ -52,6 +55,7 @@ But, in order to identify your true core domain, you will need to define **expli
 With all of this being said, it takes a certain level of discipline to keep separation between bounded contexts, but it yields great benefits and almost any project whether it makes use of DDD or not, big or small, can benefit off of context mapping and having explicitly defined context boundaries which will separate really important parts of the domain, from the less important ones, and will ultimately help you identify your Core Domain, and that’s where most of your DDD efforts need to be directed.
 
 ## Context mapping and the big ball of mud
+
 What do you do if you are dealing with a legacy system, a big ball of mud? How do you get a taste of DDD there (assuming you still can employ iterative development approach, and have access to domain experts)?
 
 Well, just because the legacy system aka. “the big ball of mud” exists, it does not mean you have to keep cramping it with new features, but rather, employ your context mapping techniques here. Draw a line around it and say, “this is my big ball of mud”, and after that draw a line around your new service and treat it as a separate bounded context.
@@ -59,6 +63,7 @@ Well, just because the legacy system aka. “the big ball of mud” exists, it d
 As Eric puts it, it’s probably inevitable that your service will get enclosed by the big ball of mud eventually (since it will eat almost anything), but at least you had a nice run for a time.
 
 ## A word on DDD building blocks
+
 > Building blocks (Entities, Value Objects, Factories, Repositories …) are overemphasized! — Eric Evans
 
 Yes, you heard it right. Building blocks have gotten too much attention, but don’t get me wrong, they are still important and provide a great value. Building blocks are what they are. They are a means to an end, mere implementation details that help you implement strategic DDD patterns.
@@ -68,6 +73,7 @@ As Evans stated, he regrets putting the strategic patterns way back at the end o
 The thing to take away is that building blocks provide you the tools to implement DDD, but you should give much more focus to strategic patterns, even more so because tactical patterns/building blocks will continue to evolve, some will become obsolete, new ones will be added (eg. Domain Events).
 
 ## Aggregates
+
 Aggregate represents a conceptual whole in the domain that is also consisted of other small parts (Value Objects and/or other Entities) and protects an always consistent invariant across all of them.
 
 One question that pops up often is a concern that a lot of people have regarding the awkward cases where their aggregates have an invariant that crosses thousands of entities.
@@ -104,6 +110,7 @@ Check out his two-part Aggregate Design paper:
 I also highly recommend you check out his DDD book: [Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577/)
 
 ## DDD in a modern “always on” world
+
 Software applications outside of the enterprise world, in general, have quite different requirements in terms of performance, latency, responsiveness, and scalability. There was a fear that applying DDD patterns to these kinds of domains would not really be feasible due to the aforementioned constraints and the overhead that OOP with DDD applied would introduce.
 
 This might have been a great obstacle to widespread DDD adoption, but luckily, applying DDD to these kinds of domains gave birth to a new approach (the ideas were there for centuries actually) towards applying DDD under the name of Event Sourcing and CQRS.
@@ -127,6 +134,7 @@ I won’t go into detail here, but I will just mention that Event Storming has a
 In his variant, you basically just take one single long-running business process end to end and model it using Event Storming in order to discover your service boundaries. This worked very well for me.
 
 ## Event Sourcing and CQRS misconceptions/pain points
+
 During one of his talks, Young focused on some recurring pain points/misconceptions that were coming up repeatedly regarding Event Sourcing and CQRS, and offered clarification and advice on how to approach these …. Here is a short recap.
 
 > CQRS is not a top-level architecture!
@@ -172,4 +180,3 @@ Recommended training material:
 - [How Events Are Reshaping Modern Systems](https://www.infoq.com/presentations/systems-event-driven)
 
 This blog has also been published at [tacta.io](https://tacta.io/en/news/a-decade-of-ddd-cqrs-and-event-sourcing/7)
-
