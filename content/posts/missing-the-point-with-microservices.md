@@ -1,5 +1,5 @@
 ---
-title: A Decade of DDD, CQRS and Event Sourcing
+title: Missing the point with Microservices
 date: 2022-02-20
 slug: missing-the-point-with-microservices
 tags:
